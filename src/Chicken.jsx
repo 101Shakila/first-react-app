@@ -1,7 +1,10 @@
+import "./Chicken.css"
+
+
 export default function Chicken() {
     return (
-        <div>
-            <p>Bock Bock Bock!</p>
-        </div>
+
+        <p className="Chicken">Bock Bock Bock!</p>
+
     )
 }
