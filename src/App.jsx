@@ -5,7 +5,7 @@ import Greeter from './Greeter'
 function App() {
   return (
     <div>
-      <Greeter />
+      <Greeter person="Abdullah" />
     </div>
   )
 }

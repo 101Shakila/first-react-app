@@ -1,5 +1,6 @@
-export default function Greeter() {
+export default function Greeter(props) {
+    console.log(props.person);
     return (
-        <h1>Hi There!</h1>
+        <h1>Hi There {props.person}</h1>
     )
 }
