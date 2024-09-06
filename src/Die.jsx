@@ -1,6 +1,6 @@
-export default function Die() {
-    const roll = Math.floor(Math.random() * 6) + 1;
+export default function Die({ numberSides }) {
+    const roll = Math.floor(Math.random() * numberSides) + 1;
     return (
-        <p>Die Roll : {roll}</p>
+        <p>Sides : {numberSides} -- Die Roll : {roll}</p>
     )
 }
