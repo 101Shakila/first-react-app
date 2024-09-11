@@ -5,7 +5,7 @@ export default function Game({ values }) {
     const styles = { color: num1 === num2 ? "green" : "red" };
     if (results) {
         return (
-
+            //This will render the details based on the condition above.
             <div style={styles}>
                 <p>{results}</p>
 
