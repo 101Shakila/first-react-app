@@ -4,7 +4,7 @@ import Greeter from './Greeter'
 import Die from './Die'
 import ListPicker from './ListPicker'
 import Game from './Game'
-
+import ColorList from './ColorList'
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <Die numberSides={20} />
       <Die numberSides={5} />
       <Die numberSides={10} />
+      <ColorList colors={["red", "blue", "green", "pink"]} />
     </div>
   )
 }
