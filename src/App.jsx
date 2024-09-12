@@ -5,6 +5,7 @@ import Die from './Die'
 import ListPicker from './ListPicker'
 import Game from './Game'
 import ColorList from './ColorList'
+import Slots from './Slots'
 
 function App() {
   return (
