@@ -19,6 +19,8 @@ function App() {
       <Die numberSides={5} />
       <Die numberSides={10} />
       <ColorList colors={["red", "blue", "green", "pink"]} />
+      <Slots val1="d" val2="d" val3="d" />
+      <Slots val1="d" val2="x" val3="d" />
     </div>
   )
 }
