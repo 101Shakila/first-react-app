@@ -4,7 +4,7 @@ export default function Slots({ val1, val2, val3 }) {
         <div>
             <h2>-- VARIABLES --</h2>
             <p>{val1}{val2}{val3}</p>
-            <p>{test ? 'ITS A MATCH!!' : 'AWW IT FAILED!'}</p>
-        </div>
+            <p style={{ color: test ? 'green' : 'red' }}>{test ? 'ITS A MATCH!!' : 'AWW IT FAILED!'}</p>
+        </div >
     )
 }
