@@ -3,6 +3,7 @@ export default function Game({ values }) {
     const num2 = Math.floor(Math.random() * 5);
     let results = num1 === num2 ? "you win" : "you lose!";
     const styles = { color: num1 === num2 ? "green" : "red" };
+
     if (results) {
         return (
             //This will render the details based on the condition above.
