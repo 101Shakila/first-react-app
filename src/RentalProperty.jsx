@@ -1,9 +1,11 @@
+import './RentalList.css';
+
 export default function RentalProperty({ name, rating, price }) {
     return (
-        <div>
-            <h1>{name}</h1>
-            <h2>${price} per night</h2>
-            <h3>{rating} ⭐</h3>
+        <div className='rental-list-item'>
+            <h2>{name}</h2>
+            <p>${price} per night</p>
+            <p>{rating} ⭐</p>
         </div>
     )
 

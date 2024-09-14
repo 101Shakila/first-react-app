@@ -1,4 +1,5 @@
 import RentalProperty from "./RentalProperty"
+import './RentalList.css';
 
 export default function RentalList({ properties }) {
     return (
