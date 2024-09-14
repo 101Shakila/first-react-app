@@ -6,8 +6,18 @@ import ListPicker from './ListPicker'
 import Game from './Game'
 import ColorList from './ColorList'
 import Slots from './Slots'
+import ShoppingList from './ShoppingList'
 
 function App() {
+
+  const data = [
+    { item: "Fish", quantity: 12, completed: false },
+    { item: "Masala", quantity: 5, completed: false },
+    { item: "Chicken", quantity: 13, completed: false },
+    { item: "Rice", quantity: 25, completed: false }
+  ]
+
+
   return (
     <div>
       {/* <Game values={[1, 2, 3, 4, 5]} />
