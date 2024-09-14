@@ -1,4 +1,4 @@
-export default function ShoppingList({ list }) {
+export default function ShoppingItem({ list }) {
     return (
         <div>
             <ul>
