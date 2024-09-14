@@ -1,4 +1,5 @@
-function handleForm() {
+function handleForm(e) {
+    e.preventDefault();
     console.log("HANLDING FORMMMSS!");
 }
 
