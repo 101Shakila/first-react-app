@@ -7,7 +7,9 @@ import './App.css'
 // import ColorList from './ColorList'
 // import Slots from './Slots'
 // import ShoppingList from './ShoppingList'
-import RentalList from './RentalList'
+// import RentalList from './RentalList'
+import Clicker from './Clicker'
+
 
 function App() {
 
@@ -18,21 +20,22 @@ function App() {
   //   { id: 4, item: "Rice", quantity: 25, completed: false }
   // ]
 
-  const properties = [
+  // const properties = [
 
-    { id: 129031, name: "Desert Yurt", rating: 4.9, price: 150 },
-    { id: 129032, name: "Lone Mountain Cabin", rating: 4.8, price: 250 },
-    { id: 129033, name: "Cactus Retreat", rating: 4.75, price: 300 },
-    { id: 129034, name: "Redwood Treehouse Escape", rating: 4.9, price: 120 },
-    { id: 129035, name: "Oceanview Condo", rating: 4.7, price: 140 },
-    { id: 129036, name: "Gold Miner campground", rating: 4.69, price: 96 }
+  //   { id: 129031, name: "Desert Yurt", rating: 4.9, price: 150 },
+  //   { id: 129032, name: "Lone Mountain Cabin", rating: 4.8, price: 250 },
+  //   { id: 129033, name: "Cactus Retreat", rating: 4.75, price: 300 },
+  //   { id: 129034, name: "Redwood Treehouse Escape", rating: 4.9, price: 120 },
+  //   { id: 129035, name: "Oceanview Condo", rating: 4.7, price: 140 },
+  //   { id: 129036, name: "Gold Miner campground", rating: 4.69, price: 96 }
 
-  ];
+  // ];
 
   return (
     <div>
       {
-        <RentalList properties={properties} />
+        <Clicker />
+        // <RentalList properties={properties} />
         // <ShoppingList list={data} />
       /* <Game values={[1, 2, 3, 4, 5]} />
       <ListPicker values={[1, 2, 3]} />
