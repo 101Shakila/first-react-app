@@ -20,7 +20,9 @@ function App() {
 
   return (
     <div>
-      {/* <Game values={[1, 2, 3, 4, 5]} />
+      {
+        <ShoppingList list={data} />
+      /* <Game values={[1, 2, 3, 4, 5]} />
       <ListPicker values={[1, 2, 3]} />
       <Greeter person="Abdullah" from="Egypt" />
       <Greeter person="Ahmed" from="Qatar" />
