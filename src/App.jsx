@@ -9,6 +9,7 @@ import './App.css'
 // import ShoppingList from './ShoppingList'
 // import RentalList from './RentalList'
 import Clicker from './Clicker'
+import Form from './Form'
 
 
 function App() {
@@ -37,17 +38,20 @@ function App() {
         <Clicker />
         // <RentalList properties={properties} />
         // <ShoppingList list={data} />
-      /* <Game values={[1, 2, 3, 4, 5]} />
-      <ListPicker values={[1, 2, 3]} />
-      <Greeter person="Abdullah" from="Egypt" />
-      <Greeter person="Ahmed" from="Qatar" />
-      <Greeter person="Shakila" from="Sri Lanka" />
-      <Die numberSides={20} />
-      <Die numberSides={5} />
-      <Die numberSides={10} />
-      <ColorList colors={["red", "blue", "green", "pink"]} />
-      <Slots val1="d" val2="d" val3="d" />
-      <Slots val1="d" val2="x" val3="d" /> */}
+        /* <Game values={[1, 2, 3, 4, 5]} />
+        <ListPicker values={[1, 2, 3]} />
+        <Greeter person="Abdullah" from="Egypt" />
+        <Greeter person="Ahmed" from="Qatar" />
+        <Greeter person="Shakila" from="Sri Lanka" />
+        <Die numberSides={20} />
+        <Die numberSides={5} />
+        <Die numberSides={10} />
+        <ColorList colors={["red", "blue", "green", "pink"]} />
+        <Slots val1="d" val2="d" val3="d" />
+        <Slots val1="d" val2="x" val3="d" /> */
+      }
+      <Form />
+
     </div>
   )
 }
