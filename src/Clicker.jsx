@@ -1,3 +1,7 @@
+function buttonClicker() {
+    console.log("OMG YOU CLICKED!");
+}
+
 export default function Clicker() {
 
     return (
