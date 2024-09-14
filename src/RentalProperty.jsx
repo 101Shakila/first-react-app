@@ -5,7 +5,7 @@ export default function RentalProperty({ name, rating, price }) {
         <div className='rental-list-item'>
             <h2>{name}</h2>
             <p>${price} per night</p>
-            <p>{rating} ⭐</p>
+            <p >{rating} ⭐</p>
         </div>
     )
 
