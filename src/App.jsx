@@ -10,7 +10,7 @@ import Slots from './Slots'
 function App() {
   return (
     <div>
-      <Game values={[1, 2, 3, 4, 5]} />
+      {/* <Game values={[1, 2, 3, 4, 5]} />
       <ListPicker values={[1, 2, 3]} />
       <Greeter person="Abdullah" from="Egypt" />
       <Greeter person="Ahmed" from="Qatar" />
@@ -20,7 +20,7 @@ function App() {
       <Die numberSides={10} />
       <ColorList colors={["red", "blue", "green", "pink"]} />
       <Slots val1="d" val2="d" val3="d" />
-      <Slots val1="d" val2="x" val3="d" />
+      <Slots val1="d" val2="x" val3="d" /> */}
     </div>
   )
 }
