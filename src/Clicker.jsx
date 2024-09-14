@@ -2,6 +2,10 @@ function buttonClicker() {
     console.log("OMG YOU CLICKED!");
 }
 
+function hoverMe() {
+    console.log("OMG YOU HOVERED!");
+}
+
 export default function Clicker() {
 
     return (
