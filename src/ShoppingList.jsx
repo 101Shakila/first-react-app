@@ -3,9 +3,10 @@ export default function ShoppingList({ list }) {
         <div>
             <ul>
                 {
-                    list.map(i => <li>{i.item} -: {i.quantity}</li>)
+                    list.map(i => <li style={{ textDecoration: i.completed ? 'line-through' : 'none' }}>
+                        {i.item} -: {i.quantity}</li>)
                 }
             </ul>
-        </div>
+        </div >
     )
 }

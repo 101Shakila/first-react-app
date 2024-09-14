@@ -13,7 +13,7 @@ function App() {
   const data = [
     { item: "Fish", quantity: 12, completed: false },
     { item: "Masala", quantity: 5, completed: false },
-    { item: "Chicken", quantity: 13, completed: false },
+    { item: "Chicken", quantity: 13, completed: true },
     { item: "Rice", quantity: 25, completed: false }
   ]
 
