@@ -7,7 +7,7 @@ export default function Clicker() {
     return (
         <div>
             <h1>Click the Button!</h1>
-            <button>Button</button>
+            <button onClick={buttonClicker}>Button</button>
         </div>
     )
 
