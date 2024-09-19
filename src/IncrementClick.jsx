@@ -1,9 +1,17 @@
+import { useState } from "react";
+
 export default function IncrementClick() {
-    let num = 0;
+
+    const [num, setNum] = useState(0);
+
+    //arrow function to increase value
     const numIncrease = () => {
-        num = num + 1;
+        setNum(num + 1);
         console.log(num);
     }
+
+
+
     return (
         <div>
             <p>Count is : {num}</p>
