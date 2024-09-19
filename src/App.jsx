@@ -10,6 +10,7 @@ import './App.css'
 // import RentalList from './RentalList'
 import Clicker from './Clicker'
 import Form from './Form'
+import IncrementClick from './IncrementClick'
 
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
   return (
     <div>
       {
-        <Clicker />
+        <IncrementClick />
         // <RentalList properties={properties} />
         // <ShoppingList list={data} />
         /* <Game values={[1, 2, 3, 4, 5]} />
@@ -50,7 +51,7 @@ function App() {
         <Slots val1="d" val2="d" val3="d" />
         <Slots val1="d" val2="x" val3="d" /> */
       }
-      <Form />
+
 
     </div>
   )
