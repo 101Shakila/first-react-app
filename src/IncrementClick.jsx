@@ -3,7 +3,8 @@ import { useState } from "react";
 export default function IncrementClick() {
 
     const [num, setNum] = useState(0);
-
+    console.log("okay so this just ran!");
+    console.log({ num });
     //arrow function to increase value
     const numIncrease = () => {
         setNum(num + 1);

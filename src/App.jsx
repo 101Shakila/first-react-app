@@ -1,4 +1,5 @@
 import './App.css'
+import IncrementClick from './IncrementClick'
 // import Chicken from './Chicken'
 // import Greeter from './Greeter'
 // import Die from './Die'
@@ -10,8 +11,7 @@ import './App.css'
 // import RentalList from './RentalList'
 //import Clicker from './Clicker'
 //import Form from './Form'
-//import IncrementClick from './IncrementClick'
-import Toggle from './Toggle'
+//import Toggle from './Toggle'
 
 function App() {
 
@@ -36,7 +36,7 @@ function App() {
   return (
     <div>
       {
-        <Toggle />
+        <IncrementClick />
         // <RentalList properties={properties} />
         // <ShoppingList list={data} />
         /* <Game values={[1, 2, 3, 4, 5]} />
