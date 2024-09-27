@@ -1,5 +1,5 @@
 import './App.css'
-import IncrementClick from './IncrementClick'
+//import IncrementClick from './IncrementClick'
 // import Chicken from './Chicken'
 // import Greeter from './Greeter'
 // import Die from './Die'
@@ -12,6 +12,8 @@ import IncrementClick from './IncrementClick'
 //import Clicker from './Clicker'
 //import Form from './Form'
 //import Toggle from './Toggle'
+import ColorBox from './ColorBox'
+import ColorBoxList from './ColorBoxList'
 
 function App() {
 
@@ -36,7 +38,7 @@ function App() {
   return (
     <div>
       {
-        <IncrementClick />
+        <ColorBoxList />
         // <RentalList properties={properties} />
         // <ShoppingList list={data} />
         /* <Game values={[1, 2, 3, 4, 5]} />
