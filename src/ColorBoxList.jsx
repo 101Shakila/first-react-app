@@ -1,20 +1,15 @@
 import ColorBox from "./ColorBox";
-import './ColorBox.css';
-
-
 
 export default function ColorBoxList() {
-
-    const numnberOfBoxes = 25;
+    const numberOfBoxes = 20; // Define the number of ColorBox components you want
 
     return (
-
-        <div className="colorBoxList">
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', width: '500px', height: '500px' }}>
             {
-
+                Array.from({ length: numberOfBoxes }).map((_, index) => (
+                    <ColorBox key={index} /> // Pass a unique key for each ColorBox
+                ))
             }
-
         </div>
-    )
-
+    );
 }
