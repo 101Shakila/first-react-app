@@ -35,7 +35,7 @@ function App() {
   //   { id: 129035, name: "Oceanview Condo", rating: 4.7, price: 140 },
   //   { id: 129036, name: "Gold Miner campground", rating: 4.69, price: 96 }
 
-  // ];
+  // ]; 
 
   return (
     <div>
