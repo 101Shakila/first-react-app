@@ -12,8 +12,10 @@ import './App.css'
 //import Clicker from './Clicker'
 //import Form from './Form'
 //import Toggle from './Toggle'
-import ColorBox from './ColorBox'
-import ColorBoxList from './ColorBoxList'
+//import ColorBox from './ColorBox'
+//import ColorBoxList from './ColorBoxList'
+import Dumbo from './dumbo'
+
 
 function App() {
 
@@ -38,7 +40,7 @@ function App() {
   return (
     <div>
       {
-        <ColorBoxList />
+        <Dumbo />
         // <RentalList properties={properties} />
         // <ShoppingList list={data} />
         /* <Game values={[1, 2, 3, 4, 5]} />
