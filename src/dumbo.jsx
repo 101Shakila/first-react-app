@@ -1,12 +1,32 @@
 import { useState } from "react";
 
-function generateGameBoard() {
-
-    console.log('MAKING A COMPLICATED GAME');
-    return Array(5000);
-}
 
 export default function Dumbo() {
-    const [board, setBoard] = useState(generateGameBoard());
-    return <button>Click me to change state.</button>
+    const [count, setCount] = useState(0);
+
+    const addOne = () => {
+
+        setCount(count + 1);
+    };
+
+    const addTwo = () => {
+
+        setCount(count + 2);
+
+    };
+
+
+    const setTen = () => {
+        setCount(10);
+    };
+
+
+    return (
+        <div>
+            <h1>Count: {count}</h1>
+            <button onClick={addOne}>ADD ONE</button>
+            <button onClick={addTwo}>ADD TWO</button>
+            <button onClick={setTen}>MAKE IT 10</button>
+        </div>
+    )
 }
