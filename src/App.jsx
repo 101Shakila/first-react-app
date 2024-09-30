@@ -14,8 +14,8 @@ import './App.css'
 //import Toggle from './Toggle'
 //import ColorBox from './ColorBox'
 //import ColorBoxList from './ColorBoxList'
-import Dumbo from './dumbo'
-
+//import Dumbo from './dumbo'
+import ScoreKeeper from './ScoreKeeper'
 
 function App() {
 
@@ -40,7 +40,7 @@ function App() {
   return (
     <div>
       {
-        <Dumbo />
+        <ScoreKeeper />
         // <RentalList properties={properties} />
         // <ShoppingList list={data} />
         /* <Game values={[1, 2, 3, 4, 5]} />
