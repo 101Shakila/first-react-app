@@ -15,8 +15,8 @@ import './App.css'
 //import ColorBox from './ColorBox'
 //import ColorBoxList from './ColorBoxList'
 //import Dumbo from './dumbo'
-import ScoreKeeper from './ScoreKeeper'
-
+//import ScoreKeeper from './ScoreKeeper'
+import EmojiCall from './EmojiCall'
 
 function App() {
 
@@ -41,7 +41,7 @@ function App() {
   return (
     <div>
       {
-        <ScoreKeeper />
+        <EmojiCall />
         // <RentalList properties={properties} />
         // <ShoppingList list={data} />
         /* <Game values={[1, 2, 3, 4, 5]} />

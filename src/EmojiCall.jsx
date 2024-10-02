@@ -2,7 +2,7 @@ import { useState } from "react"
 
 
 export default function EmojiCall() {
-    const [emojis, SetEmojis] = useState(["🥲"]);
+    const [emojis, Setemojis] = useState(["🥲"]);
 
 
     const addEmoji = () => {
